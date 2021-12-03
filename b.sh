@@ -1,1 +1,9 @@
-pacman -S libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake
+sudo pacman -S xorg-server xorg-apps xorg-xinit
+sudo pacman -S i3-gaps i3blocks i3lock numlockx
+sudo pacman -S lightdm lightdm-gtk-greeter --needed
+sudo systemctl enable lightdm
+sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont
+sudo pacman -S ttf-liberation ttf-droid ttf-roboto terminus-font
+sudo pacman -S rxvt-unicode ranger rofi dmenu --needed
+sudo pacman -S firefox vlc --needed
+sudo reboot
